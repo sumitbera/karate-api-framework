@@ -19,4 +19,3 @@ Background: Define URL
         Then status 200
         And match response.articles == '#[3]'
         And match response.articlesCount == 3
-        And
